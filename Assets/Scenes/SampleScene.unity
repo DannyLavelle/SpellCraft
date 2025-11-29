@@ -436,6 +436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1667250138}
   - component: {fileID: 1667250137}
+  - component: {fileID: 1667250139}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -459,6 +460,7 @@ MonoBehaviour:
   nodePrefab: {fileID: 8283728338575921448, guid: d00e5c137d678c7418752325a9aef333, type: 3}
   spacing: 3
   regenerateGrid: 0
+  selectedNodes: []
 --- !u!4 &1667250138
 Transform:
   m_ObjectHideFlags: 0
@@ -474,6 +476,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1667250139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667250136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c62cefae8467e22468196ee5ce78b170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grid: {fileID: 1667250137}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

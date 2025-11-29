@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class SpellGrid : MonoBehaviour
@@ -8,6 +9,8 @@ public class SpellGrid : MonoBehaviour
 
     public SpellNode[,] nodes;
     public bool regenerateGrid;
+
+    public List<SpellNode> selectedNodes = new List<SpellNode>();
     void Start()
     {
         GenerateGrid(gridSize);
